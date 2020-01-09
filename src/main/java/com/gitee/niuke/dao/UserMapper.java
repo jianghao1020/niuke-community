@@ -1,13 +1,13 @@
 package com.gitee.niuke.dao;
 
 import com.gitee.niuke.pojo.User;
-import tk.mybatis.mapper.common.BaseMapper;
+import tk.mybatis.mapper.common.Mapper;
 
 /**
  * @author oliver
  * @date 2020/1/9 14:41
  */
-public interface UserMapper extends BaseMapper<User> {
+public interface UserMapper extends Mapper<User> {
 
     /**
      * 根据用户名查询用户

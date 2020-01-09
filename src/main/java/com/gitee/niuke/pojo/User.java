@@ -3,6 +3,8 @@ package com.gitee.niuke.pojo;
 import lombok.Data;
 import lombok.ToString;
 
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Date;
 
 /**
@@ -11,8 +13,10 @@ import java.util.Date;
  */
 @Data
 @ToString
+@Table(name = "user")
 public class User {
 
+    @Id
     private Long id;
 
     private String username;

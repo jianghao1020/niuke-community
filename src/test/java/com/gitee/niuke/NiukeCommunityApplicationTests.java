@@ -26,4 +26,10 @@ class NiukeCommunityApplicationTests {
         System.out.println(users);
     }
 
+    @Test
+    void contextLoads02() {
+        User user = userMapper.selectByPrimaryKey(1L);
+        System.out.println(user);
+    }
+
 }
