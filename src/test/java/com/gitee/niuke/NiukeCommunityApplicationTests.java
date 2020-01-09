@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @SpringBootTest
 class NiukeCommunityApplicationTests {
@@ -17,6 +18,12 @@ class NiukeCommunityApplicationTests {
     void contextLoads() {
         User user = userMapper.selectUserById(1);
         System.out.println(user);
+    }
+
+    @Test
+    void contextLoads01() {
+        List<User> users = userMapper.selectAll();
+        System.out.println(users);
     }
 
 }
