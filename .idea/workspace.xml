@@ -2,27 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05cf39c9-eb39-448d-85ca-74090dfb8209" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gitee/niuke/controller/AlphaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/student.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gitee/niuke/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gitee/niuke/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/user-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/oliver.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/oliver.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/niuke-community.iml" beforeDir="false" afterPath="$PROJECT_DIR$/niuke-community.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gitee/niuke/NiukeCommunityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gitee/niuke/NiukeCommunityApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gitee/niuke/NiukeCommunityApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gitee/niuke/NiukeCommunityApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="niuke_community" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="niuke_community" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="niuke_community" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="niuke_community: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -52,6 +81,7 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -67,7 +97,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -77,7 +107,23 @@
       <recent name="D:\Workspaces\IdeaProjects\niuke-community\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.NiukeCommunityApplicationTests.contextLoads">
+    <configuration name="NiukeCommunityApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="niuke-community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gitee.niuke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gitee.niuke" />
+      <option name="MAIN_CLASS_NAME" value="com.gitee.niuke.NiukeCommunityApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NiukeCommunityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="niuke-community" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gitee.niuke.NiukeCommunityApplication" />
@@ -85,13 +131,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NiukeCommunityApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:niuke_community" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -110,7 +166,7 @@
       <updated>1578467220292</updated>
       <workItem from="1578467240681" duration="5305000" />
       <workItem from="1578530390534" duration="1796000" />
-      <workItem from="1578534698332" duration="7610000" />
+      <workItem from="1578534698332" duration="10960000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1578475810398</created>
@@ -119,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578475810398</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="搭建spring环境">
+      <created>1578551538507</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578551538507</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,37 +190,46 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化项目" />
+    <MESSAGE value="搭建spring环境" />
+    <option name="LAST_COMMIT_MESSAGE" value="搭建spring环境" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#SQL_Dialects" timestamp="1578552663662">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1578552663662" />
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578552771155">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578552771155" />
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1578470184712">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578470184712" />
-    <state x="239" y="5" key="CommitChangelistDialog2" timestamp="1578475806856">
+    <state x="239" y="5" key="CommitChangelistDialog2" timestamp="1578551536059">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="239" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578475806856" />
+    <state x="239" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578551536059" />
     <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1578475751350">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578475751350" />
-    <state width="1493" height="264" key="GridCell.Tab.0.bottom" timestamp="1578550833482">
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom" timestamp="1578555806263">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578550833482" />
-    <state width="1493" height="264" key="GridCell.Tab.0.center" timestamp="1578550833482">
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578555806263" />
+    <state width="1493" height="264" key="GridCell.Tab.0.center" timestamp="1578555806263">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578550833482" />
-    <state width="1493" height="264" key="GridCell.Tab.0.left" timestamp="1578550833481">
+    <state width="1493" height="264" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578555806263" />
+    <state width="1493" height="264" key="GridCell.Tab.0.left" timestamp="1578555806263">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578550833481" />
-    <state width="1493" height="264" key="GridCell.Tab.0.right" timestamp="1578550833482">
+    <state width="1493" height="264" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578555806263" />
+    <state width="1493" height="264" key="GridCell.Tab.0.right" timestamp="1578555806263">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578550833482" />
+    <state width="1493" height="264" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578555806263" />
     <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1578550833483">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -174,14 +246,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578550833483" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1578535987448">
+    <state x="234" y="12" key="SettingsEditor" timestamp="1578553382691">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578535987448" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1578475872405">
+    <state x="234" y="12" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578553382691" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1578551635228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578475872405" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578551635228" />
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1578534699404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -190,5 +262,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1578476027305" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1578552067761">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1578552067761" />
   </component>
 </project>

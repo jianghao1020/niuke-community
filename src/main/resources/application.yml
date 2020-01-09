@@ -22,3 +22,6 @@ mybatis:
   configuration:
     use-generated-keys: true
     map-underscore-to-camel-case: true
+logging:
+  level:
+    com.gitee.niuke.dao: debug
