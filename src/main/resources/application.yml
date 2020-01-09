@@ -1,0 +1,24 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://database-2.crqqdqt32fbn.us-west-1.rds.amazonaws.com:3306/niuke_community
+    username: admin
+    password: 123456789
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      maximum-pool-size: 15
+      minimum-idle: 5
+      idle-timeout: 30000
+  # 关闭thymeleaf缓存
+  thymeleaf:
+    cache: false
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.gitee.niuke.pojo
+  configuration:
+    use-generated-keys: true
+    map-underscore-to-camel-case: true
