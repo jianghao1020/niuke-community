@@ -13,7 +13,7 @@ import java.util.Date;
  */
 @Data
 @ToString
-@Table(name = "user")
+@Table(name = "sys_user")
 public class User {
 
     @Id

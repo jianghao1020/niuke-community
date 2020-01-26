@@ -6,6 +6,7 @@ import com.gitee.niuke.pojo.User;
 import com.gitee.niuke.service.UserService;
 import com.github.pagehelper.PageInfo;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @author oliver
@@ -31,6 +33,13 @@ public class UserController {
         // 调用UserService实现分页条件查询User
         PageInfo<User> pageInfo = userService.findPage(user, page, size);
         return new Result(true, StatusCode.OK, "查询成功", pageInfo);
+    }
+
+    @GetMapping
+    @ResponseBody
+    public Result findAll() {
+        List<User> all = userService.findAll();
+        return new Result(true, StatusCode.OK, "查询成功", all);
     }
 
 }

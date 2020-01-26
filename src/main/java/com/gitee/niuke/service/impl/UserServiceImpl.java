@@ -1,7 +1,9 @@
-package com.gitee.niuke.service;
+package com.gitee.niuke.service.impl;
 
 import com.gitee.niuke.dao.UserMapper;
 import com.gitee.niuke.pojo.User;
+import com.gitee.niuke.service.ExampleService;
+import com.gitee.niuke.service.UserService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.stereotype.Service;
@@ -65,7 +67,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public List<User> findAll() {
-        return null;
+        return userMapper.selectAll();
     }
 
 }

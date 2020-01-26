@@ -9,14 +9,14 @@
     <select id="selectUserById" resultType="com.gitee.niuke.pojo.User">
         select
         <include refid="selectFields"/>
-        from user
+        from sys_user
         where id = #{id}
     </select>
 
     <select id="selectUserByName" resultType="com.gitee.niuke.pojo.User">
         select
         <include refid="selectFields"/>
-        from user
+        from sys_user
         where username = #{username}
     </select>
 
