@@ -12,7 +12,6 @@ import java.util.Date;
  * @date 2020/1/9 14:34
  */
 @Data
-@ToString
 @Table(name = "sys_user")
 public class User {
 
